@@ -1,1 +1,1 @@
-const initial = (arr) => arr.slice(0, -1);
+const isPalindrome = (str) => str === str.split("").reverse().join("");
